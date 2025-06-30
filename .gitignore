@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow
+airflow.db
+logs/
+*.log
+
+# Secrets
+.env
+.env.*
+secrets/
+*.json
+
+# IDE
+.vscode/
+.idea/
